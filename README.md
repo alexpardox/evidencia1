@@ -1,6 +1,4 @@
-MATERIA: Programación en JAVA -- EVIDENCIA FINAL 
-
-Autor: @alexpardox
+1) Instalación y configuración.
 
 Estructura del proyecto evidencia1: 
 
@@ -24,6 +22,8 @@ Estructura del proyecto evidencia1:
  		├─ doctors.csv
 		├─ patients.csv
  		└─ citas.csv
+   
+2) Uso del programa.
 
 - Clases utilizadas
 	
@@ -56,3 +56,34 @@ Clase utilitaria para asegurar que exista la carpeta db y los archivos CSV (admi
 	
 - SistemaCitas (singleton):
 Gestiona en memoria las listas de administradores, doctores, pacientes y citas. Se encarga de cargar/guardar cada listado en su CSV correspondiente, validar credenciales de admin y ofrecer métodos para crear nuevas entidades o buscar por id.
+
+Cada una de estas clases colabora para ofrecer las funcionalidades de alta de doctores/pacientes, creación de citas, control de acceso y persistencia en archivos CSV.
+
+3) Créditos
+
+- MATERIA: Programación en JAVA -- EVIDENCIA FINAL
+- Autor: @alexpardox
+
+4) Licencia
+
+MIT License
+
+Copyright (c) 2025 alexpardox
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
