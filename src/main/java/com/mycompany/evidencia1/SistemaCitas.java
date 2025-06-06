@@ -76,7 +76,7 @@ public class SistemaCitas {
                 String nombre = campos[1];
                 String password = campos[2];
                 listaAdmins.add(new Admin(id, nombre, password));
-                System.out.println("Intenta ingresar con Usuario ID: "+id+" passw: "+password);
+                System.out.println("*** TIP *** ingresar con Usuario ID: "+id+" passw: "+password);
             }
         } catch (IOException e) {
             System.err.println("Error cargando admins: " + e.getMessage());

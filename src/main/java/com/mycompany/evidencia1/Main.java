@@ -32,7 +32,10 @@ public class Main {
 
         // 3) Login de administrador
         boolean accesoConcedido = false;
+        System.out.println("===== ================================================ =====");
         System.out.println("===== Bienvenido al Sistema de Administración de Citas =====");
+        System.out.println("===== ================================================ =====");
+
         while (!accesoConcedido) {
             System.out.println("Ingrese ID de Administrador: ");
             String id = scanner.nextLine().trim();
